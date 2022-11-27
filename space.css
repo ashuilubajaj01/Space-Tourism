@@ -386,7 +386,7 @@ select {
         right: 1rem;
         top: 2rem;
         background: transparent;
-        background-image: url(../Images/hamburger.svg);
+        background-image: url(./Images/hamburger.svg);
         background-repeat: no-repeat;
         background-position: center;
         width: 1.5rem;
@@ -395,7 +395,7 @@ select {
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(../Images/close_icon.svg);
+        background-image: url(./Images/close_icon.svg);
     }
 
     .mobile-nav-toggle:focus-visible {
@@ -483,18 +483,18 @@ body {
 
 /* home */
 .home {
-    background-image: url(../Images/mobile_space.jpg);
+    background-image: url(./Images/mobile_space.jpg);
 }
 
 @media (min-width: 35rem) {
     .home {
         background-position: center center;
-        background-image: url(../Images/tablet_space.jpg);
+        background-image: url(./Images/tablet_space.jpg);
     }
 }
 
 @media (min-width: 45rem) {
     .home {
-        background-image: url(../Images/Bitmap.jpg);
+        background-image: url(./Images/Bitmap.jpg);
     }
 }
